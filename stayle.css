@@ -1,0 +1,125 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* تصميم الهيدر */
+header {
+    background-color: #007bff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #fff;
+}
+
+/* تصميم قسم الاتصال */
+.contact {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1em;
+    color: #555;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* تصميم قسم الخدمات */
+.services {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.2em;
+    color: #007bff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.service-item {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    font-size: 1.8em;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.service-item .price {
+    font-size: 1.4em;
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* تصميم الفوتر */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #555;
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 20px;
+    border-top: 2px solid #fff;
+}
